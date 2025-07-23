@@ -30,9 +30,8 @@ i{
 }
 button:hover,a:hover{
 
- background-color:  rgba(255, 255, 255, 0.253);
- height: 2rem;
- width: 4rem;
+ color: black;
+ text-shadow: 2px 2px 2px black;
 }
 i:hover{
     background-color:  rgba(4, 1, 19, 0.658);
