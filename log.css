@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-     background-color: rgba(4, 1, 19, 0.658);
+     background-color: rgba(4, 1, 19, 0.89);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -40,7 +40,10 @@ h1,#name,#pass,.Homee{
 h1{
      color: white;
 }
+h5{
+    font-weight: 300;
+}
 .library_tittle{
-    font-weight: 200;
+    font-weight: 100;
 }
 
