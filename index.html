@@ -10,13 +10,31 @@
 <body>
    
     <nav class="top">
-        <a href="index.html" class="home">Home</a>
+<h6 class="welcome"></h6>
+       <a href="index.html" class="home">Home</a>
         <button type="button" class="books">Books</button>
        
         <a href="log.html">Log Out</a>
     </nav>
+             <h1 class="library_title tit">Complex Library</h1> 
     <i class="fa fa-plus" aria-hidden="true"></i>
  
-    <script src="script.js"></script>
+    <script>
+             const submit_button=document.querySelector(".Homee");
+        const message=document.querySelector(".message")
+
+        submit_button.addEventListener("click",()=>{
+            const welcome=document.querySelector(".welcome");
+            const user_name=document.querySelector("#name").value;
+        const password=document.querySelector("#pass").value;
+            if(user_name==="lala" && password==="1234" ){
+                document.location="index.html";
+            }
+            else{
+                message.textContent="WRONG DETAILS. TRY AGAIN";
+                message.style.color="red";
+            }
+        });
+    </script>
 </body>
 </html>
