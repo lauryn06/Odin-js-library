@@ -10,20 +10,28 @@
 <body>
    
     <nav class="top">
-<h6 class="addingBooks"></h6>
+
        <a href="index.html" class="home">Home</a>
         <button type="button" class="books">Books</button>
        
         <a href="log.html">Log Out</a>
     </nav>
              <h1 class="library_title tit">Complex Library</h1> 
+             <h6 class="addingBooks"></h6>
+             <form action="/" method="post">
+                <input type="text" placeholder="Add the Author of the book">
+                <input type="text" placeholder="Add the Book tittle">
+                <input type="text" placeholder="Add the Page Numbers">
+             </form>
     <i class="fa fa-plus" aria-hidden="true" ></i>
  
     <script>
      const  add=document.querySelector(".addingBooks");
 
      add.textContent="Add the books title, number of pages and author of the book";
-     add.style.color="black";
+     add.style.color="grey";
+     add.style.padding="2rem";
+     add.style.fontSize="1rem";
     </script>
 </body>
 </html>
